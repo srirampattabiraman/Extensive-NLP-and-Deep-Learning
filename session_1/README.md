@@ -1,4 +1,4 @@
-                                                                              BACKGROUND AND VERY BASICS
+**BACKGROUND AND VERY BASICS**
                                                                               
 Please refer below question and answers on which i tried to explain terminolgies in lay man terms
 
@@ -88,3 +88,17 @@ Learning rate should always be optimal that literally makes loss to converge gra
      Loss function plays a major role during back propagation in terms calculating gradients.
 
 5. What is the "chain rule" in gradient flow?
+
+•	In Neural networks backpropagation takes the application of calculus chain rule 
+•	During optimization weights will be updated by taking the difference between old weight and learning rate times derivative of error with respect to that weight.
+
+   ![image](https://user-images.githubusercontent.com/55537646/117281558-672dc880-ae81-11eb-81d9-d559332c500c.png)
+
+
+•	As each gradient contributes to other gradients in neural network, gradient that contributes should also considered while performing updates during back propagation. 	
+                                          
+•	Hence the derivative of output with respect to weight will have data about the gradient that is contributed, i.e. 
+               
+   ![image](https://user-images.githubusercontent.com/55537646/117281592-701e9a00-ae81-11eb-8a47-2e86e49d7abe.png)
+
+
