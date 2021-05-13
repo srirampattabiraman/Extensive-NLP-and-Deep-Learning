@@ -1,9 +1,10 @@
 **Neural Network from Scratch using Excel**
 
-**Screenshot of values during forward and backward pass
+**Screenshot of values during forward and backward pass with learning rate 0.5
 **
 
-![image](https://user-images.githubusercontent.com/55537646/118095617-ec6b2d00-b3ed-11eb-9427-de89f8da7765.png)
+![image](https://user-images.githubusercontent.com/55537646/118097138-e8400f00-b3ef-11eb-913b-5d850b2027c3.png)
+
 
 **Steps**
 
