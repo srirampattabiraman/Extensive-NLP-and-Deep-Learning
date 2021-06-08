@@ -1,5 +1,4 @@
-**
-Problem Statement**
+**Problem Statement**
 
 1.  Create a augumentation functions using Google translate to convert the sentences also include "random_swap" function, as well as "random_delete".
 
