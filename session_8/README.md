@@ -61,6 +61,13 @@ can be fed directly into our model.
 
 ![image](https://user-images.githubusercontent.com/55537646/124389120-64c1e080-dd03-11eb-8875-0b79bf7d3fa8.png)
 
+While working on 
+**Packed Padded Sequences, Masking, Inference and BLEU**
+
+I Got below error
+RuntimeError: 'lengths' argument should be a 1D CPU int64 tensor, but got 0D cpu Long tensor
+
+it is not accepting source length to cpu device, as per the suggestion downgrading torch seems to be giving expected results
 
 
 
